@@ -1,6 +1,6 @@
 ## Organization Access Request Flow
 
-````mermaid
+```mermaid
 sequenceDiagram
     participant A as Organization A
     participant P as PACT Directory
@@ -9,8 +9,7 @@ sequenceDiagram
     A->>P: Request access to PCF data from Org. B
     P->>B: Send email notification
     B->>P: Grant or deny access
-    ```
-````
+```
 
 ## PACT IM OAuth Sequence Diagram
 
